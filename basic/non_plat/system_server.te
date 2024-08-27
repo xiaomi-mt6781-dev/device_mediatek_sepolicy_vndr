@@ -73,11 +73,6 @@ get_prop(system_server, vendor_mtk_telephony_sensitive_prop)
 # Purpose : bt hal interface permission
 binder_call(system_server, mtk_hal_bluetooth)
 
-# Date:W17.08
-# Operation : sensors hal developing
-# Purpose : sensors hal interface permission
-binder_call(system_server, mtk_hal_sensors)
-
 # Operation : light hal developing
 # Purpose : light hal interface permission
 binder_call(system_server, mtk_hal_light)

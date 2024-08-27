@@ -27,7 +27,7 @@ allow fpsgo_native mediaserver:process setsched;
 allow fpsgo_native mediaswcodec:process setsched;
 allow fpsgo_native mediaextractor:process setsched;
 allow fpsgo_native hal_audio_default:process setsched;
-allow fpsgo_native mtk_hal_sensors:process setsched;
+allow fpsgo_native hal_sensors_default:process setsched;
 allow fpsgo_native mtk_hal_c2:process setsched;
 allow fpsgo_native mtk_hal_gnss:process setsched;
 allow fpsgo_native mtk_hal_power:process setsched;
